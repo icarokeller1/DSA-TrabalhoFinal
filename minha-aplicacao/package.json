@@ -1,0 +1,24 @@
+{
+  "name": "minha-aplicacao",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/index.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "next": "13.5.6",
+    "pg": "^8.11.3",
+    "pg-pool": "^3.6.1",
+    "react": "^18",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18"
+  }
+}
